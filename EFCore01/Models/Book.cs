@@ -14,6 +14,7 @@ namespace EFCore01.Models
         public decimal Price { get; set; }
         public int NumberOfPages { get; set; }
         public int PublishedYear { get; set; }
+        public bool IsInStock { get; set; }
 
     }
 }
